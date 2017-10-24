@@ -1,0 +1,358 @@
+\documentclass[10pt]{article}
+\usepackage{pictex,amsmath,amssymb,amsfonts,amsthm,verbatim}
+\usepackage{graphics}
+\usepackage{fullpage}
+\usepackage{fancyhdr}
+\usepackage{algorithm,algorithmic}
+\usepackage{multirow}
+\usepackage{gensymb}
+\usepackage{graphicx}
+
+\setlength{\voffset}{-0.25in}
+\setlength{\headsep}{+0.5in}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0em}
+
+\def\vu{\mathbf{u}}
+\def\vv{\mathbf{v}}
+\def\vb{\mathbf{b}}
+\def\vw{\mathbf{w}}
+\def\vs{\mathbf{s}}
+
+\renewcommand{\implies}{\rightarrow}
+\renewcommand{\lor}{\vee}
+\renewcommand{\land}{wedge}
+\renewcommand{\iff}{\leffrightarrow}
+\newcommand{\TRUE}{\mathbf{T}}
+\newcommand{\FALSE}{\mathbf{F}}
+\newcommand{\universe}{\mathcal{U}}
+
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{mdframed}
+\usepackage{amsmath}
+\usepackage[utf8]{vietnam}
+
+\newmdenv[linecolor=blue,skipabove=\topsep,skipbelow=\topsep,leftmargin=5pt,rightmargin=-5pt,innerleftmargin=5pt,innerrightmargin=5pt]{mybox}
+
+\begin{document}
+\begin{center}
+\textbf{TEMPERATURE}
+\end{center}
+\begin{enumerate}
+	%1
+	\item \textbf{Temperature and the Zeroth Law of Thermodynamics}
+	\begin{itemize}
+		\item \textbf{Thermal equilibrium} is the situation in which two objects would not exchange energy by heat or electromagnetic radiation if they were placed in thermal contact.
+		\item \textbf{The zeroth law of thermodynamics} :If odjects A and B are separately in thermal equilibrium with object C, then A and B are in thermal equilibrium with each other.
+	\end{itemize}
+	%2
+	\item \textbf{Thermometers and the Celsius Temperature Scale}\\
+	- Thermometer is the devices that are used to measure the temperature of a system.\\
+	- All thermometer are based on the principle that some physical property of a system changes as the temperature changes.Some physical properties is (1) the volume of a liquid, (2) the dimensions of a solid, (3) the pressure of a gas at constant volume, (4) the volume of a gas at constant pressure, (5) the electric resistance of a conductor, (6) the color of an object\\
+	- A common thermometer in  everyday use consist of a mass of liquid -- usually mercury or alcohol.\\
+	- \textbf{The Celsius temperature scale} uses the mixture of water and ice in thermal equilibrium at atmospheric pressure, this mixture is defined to have a temperature of zero degrees Celsius, which are writen as 0 \degree C, which is called as the ice point of water. another is defined as the steam point of water, which is written as 100 \degree C.
+	%3
+	\item \textbf{The absolute temperature scale} (\degree K)
+	\begin{mybox}
+	\begin{center}
+	$T_C = T - 273.15$
+	\end{center}
+	\end{mybox}
+	- So, the ice-point temperature on the Kelvin scale is 273.15 \degree, corresponds to 0 \degree C, and the Kelvin steam point is 373.15 \degree, is equivalent to 100 \degree C
+	%4
+	\item \textbf{The Fahrenheit scale}
+	\begin{mybox}
+	\begin{center}
+	$T_f = \dfrac{9}{5} + 32 \degree F$
+	\end{center}
+	\end{mybox}
+	\textbf{The relation between changes in temperature on the Celsius, Kelvin, and Farenheit scales:}
+	\begin{mybox}
+	\begin{center}
+	$\Delta T_C = \Delta T = \dfrac{5}{9} \Delta T_F$
+	\end{center}
+	\end{mybox}
+	%5
+	\item \textbf{Thermal Expansion of Solids and Liquids}\\
+	- \textbf{Thermal Expansion} is a consequence of the change in the average separation between the atoms in the subject\\ 
+	- As the temperature of the solid increases, the atoms oscilate with greater amplitudes; as a result, the average separation between them increases. Consequently, the object expands.\\
+	\textbf{The average coefficient of linear expansion:}
+	\begin{mybox}
+	\begin{center}
+	$\alpha = \dfrac{\Delta L / L_i}{\Delta T}$
+	\end{center}
+	\end{mybox}
+	\pagebreak
+	- Because the linear expansion of an object change with temperature also susrface area and volume change as well.So:
+	\begin{mybox}
+	\begin{center}
+	$\Delta V = \beta V_i \Delta T$
+	\end{center}
+	\end{mybox}
+	Where $\beta$ is the average coefficient of volume expansion.\\
+	For a solid, $\beta = 3 \alpha$.
+	%6
+	\item \textbf{Ideal Gas}
+	\textbf{Equation state of Ideal Gas}
+	\begin{mybox}
+	\begin{center}
+	PV=nRT
+	\end{center}
+	\end{mybox}
+	\begin{itemize}
+	\item for R = 8.314 J/mol $\cdot K$\\
+	 	$P:Pa(N/m^2)$\\
+	 	$V:m^3$\\
+	\item for R = 0.08214 L $\cdot atm/mol \cdot K$\\
+	    P:atm\\
+	    $V:L(1L = 10^3 cm^3 = 10^-3 m^3)$\\
+	\end{itemize}
+	%7
+	\item \textbf{Boltzman's constant}
+      \begin{mybox}
+	\begin{center}
+	PV = nRT = $\dfrac{N}{N_A} RT$\\
+       \end{center}
+       \end{mybox}
+	$\rightarrow{PV = Nk_BT}$
+	For $k_B = \dfrac{R}{N_A} = 1.38 \times 10^{-23} J/K$ 
+\end{enumerate}
+\pagebreak
+\begin{center}
+\textbf{HEATS AND THE FIRST LAW OF THERMODYNAMICS}
+\end{center}
+\begin{enumerate}
+	%1
+	\item \textbf{Heat and Internal Energy}\\
+	- \textbf{Internal energy} is all the energy of a system that is associated with its microscopic components -atoms and molecules-when viewd from a reference frame at rest with respect to the center of mass of the system.\\
+	- \textbf{Heat} is defined as the transfer of energy across the boundary of a system due to a temperature difference between the system and its surroundings.\\
+	%2
+	\item \textbf{Unit of Heat}\\
+	- Calorie(Cal) is defined as the amount of energy transfer necessary to raise the temperature of 1g of water from 14.5 \degree C to 15.5 \degree C
+	\begin{mybox}
+	\begin{center}
+	1 Calorie = $1.00 \times 10^3 cal$
+	\end{center}
+	\end{mybox}
+	%3
+	\item \textbf{The Mechanical Equivalent of Heat}
+	\begin{mybox}
+	\begin{center}
+	1 cal = 4.186J
+	\end{center}
+	\end{mybox}
+	For the work done is equivalent to the calories release is:
+	\begin{mybox}
+	\begin{center}
+	W = nmgh
+	\end{center}
+	\end{mybox}
+	With:\\
+	n = the work done in \textbf{n} times.\\
+	m = mass of an object.\\
+	%4
+	\item \textbf{Specific Heat and Calorimetry}\\
+	- The \textbf{heat capacity} (nhiệt dung) \textbf{C} of a particular sample of a substance is defined as the amount of energy needed to raise the temperature of that sample by 1 \degree C.
+	\begin{mybox}
+	\begin{center}
+	$Q = C \Delta T$
+	\end{center}
+	\end{mybox}
+	- The \textbf{specific heat} (nhiệt dung riêng) \textbf{c} of a substances is the heat capacity per unit mass.
+	\begin{mybox}
+	\begin{center}
+	$c = \dfrac{Q}{m \Delta T}$
+	\end{center}
+	\end{mybox}
+	\textbf{Conversation of Energy:Calorimetry}\\
+	- One tecnique for measuring specific heat involves heating the sample to temperature $T_X$ and place it in a vessel of water that $T_{water} < T_X$ and measure the temperature of water after equilibrium is \textbf{calorimetry} (phép đo nhiệt lượng), and the device is used where the energy transfers occured is \textbf{calorimeter}.\\
+	- If the system of sample and the water is isolated , the law of the converational of energy requires the amount of energy that \textbf{leaves} the sample is \textbf{equal} to the amount of energy that \textbf{enters} the water.\\
+	\begin{mybox}
+	\begin{center}
+	$Q_{cold} = -Q_{hot}$
+	\end{center}
+	\end{mybox}
+	In this situation:
+	\begin{center}
+	$m_{water}c_{water}(T_f-T_i) > 0 \mbox{ as }(T_f > T_i)$\\
+	$m_Xc_X(T_f-T_i) <0 \mbox{ as } (T_f < T_i)$\\
+	\end{center}
+    \pagebreak
+	Then:
+	\begin{mybox}
+	\begin{center}
+	 $m_{water}c_{water}(T_f-T_i) = -m_Xc_x(T_f-T_i)$
+	 \end{center}
+	 \end{mybox}
+	 %5
+	 \item \textbf{Latent Heat}\\
+	 - In some situations the change of energy transfer does not result in the change of temperature, it is commonly referred as a \textbf{phase change}\\
+	 - There are three common \textbf{phase change}:\\
+	  + Solid to liquid.\\
+	  + Liquid to gas.\\
+	  + Crystalline structure of a solid.\\
+	 - Such \textbf{phase changes} involve a change in internal energy but no change in temperature.\\
+	\begin{mybox}
+	\begin{center}
+	$Q = \pm mL$
+	\end{center}
+	\end{mybox}
+	%6
+	\item \textbf{Work and Heat in Thermodynamic Process}
+	\begin{mybox}
+	\begin{center}
+	$W = - \int_{V_i}^{V_f}PdV$
+	\end{center}
+	\end{mybox}
+	\begin{center}
+	\includegraphics{hinh}
+	\end{center}
+	We can see from the picture that:\\
+	$(a) W= -P_i(V_f-V_i)$\\
+	$(b) W= -P_f(V_f-V_i)$\\
+	$(c) W= W = - \displaystyle \int_{V_i}^{V_f}PdV$.\\
+	%7
+	\item \textbf{The first law of Thermodynamic}\\
+	- The change in total energy of a system (also in the change of internal energy) is the work done on it plus the heat transferred.
+	\begin{mybox}
+	\begin{center}
+	$\Delta E = \Delta U = Q + W$
+	\end{center}
+	\end{mybox}
+	If:\\
+	Q > 0; W > 0:receive thermal.\\
+	Q < 0; W < 0:release thermal.\\
+	%8
+	\item \textbf{Applications of the First law of Thermodynamics}\\
+	\begin{itemize}
+		\item \textbf{An andiabatic process} (Q = 0) (Quá trình đoạn nhiệt): no energy enter or leaves the system by heat.
+		\begin{mybox}
+		\begin{center}
+		$\Delta E = \Delta U = W + 0 = W$
+		\end{center}
+		\end{mybox}
+		\item \textbf{An isovolumetric process} (Quá trình đẳng tích):V is constant
+		\begin{mybox}
+		\begin{center}
+		$\Delta E = \Delta U = Q$
+		\end{center}
+		\end{mybox}
+		\item \textbf{Isobaric process} (Quá trình đẳng áp):P is constant
+		\begin{mybox}
+		\begin{center}
+		$W = -P(V_f-V_i)$
+		\end{center}
+		\end{mybox}
+	\end{itemize}
+	%9
+	\item \textbf{Isothermal Expansion of an Ideal Gas}\\
+	Because the gas is ideal and the process is quasi-static, we can use: 
+	\begin{mybox}
+	\begin{center}
+	PV=nRT
+	\end{center}
+	\end{mybox}
+	\begin{center}
+	$W = - \displaystyle \int {V_i}^{V_f}PdV = - \int_{V_i}^{V_f} \dfrac{nRT}{V}dV$
+	\end{center}
+	Evaluate the integral, we have:
+	\begin{mybox}
+	\begin{center}
+	W = nRT ln($\dfrac{V_i}{V_f}$)
+	\end{center}
+	\end{mybox}
+	%10
+	\item \textbf{Energy Transfer Mechanisms}\\
+	\textbf{Thermal Conduction} (Page 623)\\
+	\begin{mybox}
+	\begin{center}
+	$\mathcal{P} = kA \displaystyle | \dfrac{dT}{dx} |$
+	\end{center}
+	\end{mybox}
+	\textbf{Radiation} (Page 628)\\
+	\begin{mybox}
+	\begin{center}
+	$\mathcal{P} = \sigma AeT^4$
+	\end{center}
+	\end{mybox}
+\end{enumerate}
+\pagebreak
+\begin{center}
+\textbf{THE KINETIC THEORY OF GASES}
+\end{center}
+\begin{enumerate}
+	%1
+	\item \textbf{Molecular Model of an Ideal Gas}
+	\begin{itemize}
+		\item The number of molecules in the gas is large, and the average separation between them is large compared with their dimensions
+		\item The molecules obey Newton's laws of Motion, but as whole they move randomly.
+		\item The molecules interact only by short-range forces during elastic collisions
+		\item The molecules make elastic collisions with the walls
+		\item The gas under consideration is a pure substance; that is, all molecules are identical.
+	\end{itemize}
+	%2
+	\item \textbf{The basic equation of kinetic energy of an ideal gas}
+	\begin{mybox}
+	\begin{center}
+	$PV = \dfrac{2}{3}N(\dfrac{1}{2}m \overline{v^2}) = \dfrac{2}{3}N \overline{K}$
+	\end{center}
+	\end{mybox}
+	Beside: 
+	\begin{mybox}
+	$PV = Nk_BT$
+	\end{mybox}
+	%3
+	\item \textbf{The average translational kinetic energy}
+	\begin{mybox}
+	\begin{center}
+	$\overline{K} = \dfrac{3}{2}k_BT$
+	\end{center}
+	\end{mybox}
+	\begin{center}
+	$\rightarrow{\overline{v^2} = \dfrac{3k_BT}{m}}$
+	\end{center}
+	%4
+	\item \textbf{Adiabatic Process for an Ideal Gas} (Page 649)
+	\begin{mybox}
+	\begin{center}
+	$PV^{\gamma} = constant$
+	\end{center}
+	\end{mybox}
+	%5
+	\item \textbf{The Equiparition of Energy} (Sự phân bố đồng đều về năng lượng)\\
+	- Each atom has three different motion:translational motion (chuyển động tịnh tiến), rotational motion, vibrationnal motion to create the degree of freedom.\\
+	\textbf{Internal Energy of Ideal Gas}
+	\begin{mybox}
+	\begin{center}
+	$U = (i_P + i_R + 2i_V) \dfrac{Nk_BT}{2}$
+	\end{center}
+	\end{mybox}
+	%6
+	\item \textbf{Boltzman Distribution}\\
+	- All molecules are not average.\\
+	- Each molecule has its own v.
+	%7
+	\item \textbf{Maxwell Distribution}\\
+	\begin{itemize}
+		\item  \textbf{The root-mean-square speed:}
+		\begin{mybox}
+		\begin{center}
+		$v_{rms} = \sqrt{\overline{v^2}} = \sqrt{\dfrac{3k_BT}{m}}$
+		\end{center}
+		\end{mybox}
+		\item \textbf{The average speed:}
+		\begin{mybox}
+		\begin{center}
+		$\overline{v} = \sqrt{\dfrac{8k_BT}{m}}$
+		\end{center}
+		\end{mybox}
+		\item \textbf{The most probable speed:}
+		\begin{mybox}
+		\begin{center}
+		$v_{p}= \sqrt{\dfrac{2k_BT}{m}}$
+		\end{center}
+		\end{mybox}
+	\end{itemize}		
+\end{enumerate}	
+\end{document}
