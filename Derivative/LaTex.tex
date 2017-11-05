@@ -1,0 +1,100 @@
+\documentclass[10pt]{article}
+\usepackage{pictex,amsmath,amssymb,amsbsy,amsfonts,amsthm,verbatim}
+\usepackage{graphics}
+\usepackage{fullpage}
+\usepackage{fancyhdr}
+\usepackage{algorithm,algorithmic}
+\usepackage{multirow}
+\setlength{\voffset}{-0.25in}
+\setlength{\headsep}{+0.5in}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0em}
+
+\newcounter{problem}
+\newcommand{\problem}{\textbf{\refstepcounter{problem}Problem \theproblem}}
+
+\def\vu{\mathbf{u}}
+\def\vs{\mathbf{x}}
+\def\vb{\mathbf{b}}
+\def\vv{\mathbf{v}}
+\def\vw{\mathbf{w}}
+
+\renewcommand{\implies}{\rightarrow}
+\renewcommand{\lor}{\vee}
+\renewcommand{\land}{wedge}
+\renewcommand{\iff}{\leffrightarrow}
+\newcommand{\xor}{\oplus}
+\newcommand{\TRUE}{\mathbf{T}}
+\newcommand{\FALSE}{\mathbf{F}}
+\newcommand{\universe}{\mathcal{U}}
+
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{mdframed}
+\usepackage{amsmath}
+\usepackage[utf8]{vietnam}
+ 
+\newmdenv[linecolor=black,skipabove=\topsep,skipbelow=\topsep,
+leftmargin=-5pt,rightmargin=-5pt,
+innerleftmargin=5pt,innerrightmargin=5pt]{mybox}
+
+\begin{document}
+\textit{\textbf{SOME CALCULUS FUNCTIONS }}\\
+ \textbf{DERIVATIVES OF UNIVERSE TRIGONOMETRIC FUNTIONS}
+\begin{itemize}
+	\item $y = arcsinx (x \in (-1;1))$
+	$\rightarrow{y' = \dfrac{1}{\sqrt{1-x^2}}}$
+	\item $y = arccosx (x \in (-1;1) )$
+	$\rightarrow{y' = \dfrac{-1}{\sqrt{1-x^2}}}$
+	\item $y = arctanx$
+	$\rightarrow{y' = \dfrac{1}{1+x^2}}$
+	\item y = arccotx
+	$\rightarrow{y' = \dfrac{-1}{1+x^2}}$
+\end{itemize}
+ \textbf{DERIVATIVE OF HYPERBOLIC FUNCTION}
+\begin{itemize}
+    \item $y=sinhx \rightarrow{y'=coshx}$
+    \item $y=coshx \rightarrow{y'=sinhx}$
+    \item $y=tanhx \rightarrow{y'=\dfrac{1}{cosh^{2}x}}$
+    \item $y=cothx \rightarrow{y'=\dfrac{-1}{sinh^{2}x}}$
+\end{itemize}
+ \textbf{{LEINIZ FORMULA}}\\
+"If f(x) and g(x) have $n^{th} \mbox{ derivative then }f(x) \times g(x) \mbox{ also have }n^{th}$ derivative"\\
+\begin{center}
+$(f(x)\times g(x))^{n} = \displaystyle \sum_{k=0}^{n}(C^k_nf^{n-k}(x)g^k(x))$\\
+\end{center}
+ \textbf{SOME BASIC FORMULA}\\
+\begin{itemize}
+	\item $(a^x)^n = a^{x}ln^{n}a$
+	\item $(e^x)^n = e^{x}$
+	\item $(sinax)^n = a^nsin(ax + \dfrac{n\pi}{2})$
+	\item $(cosax)^n = a^ncos(ax + \dfrac{n\pi}{2})$
+	\item $((ax+b)^{\alpha})^n = a^n\alpha(\alpha-1)\ldots(\alpha-n+1)(ax+b)^{\alpha-n}$
+	\item $log_a{|x|}^{n} = \dfrac{(-1)^{n-1}(n-1)!}{x^{n}lna}$
+	\item $ln|x|^n = \dfrac{(-1)^{n-1}(n-1)!}{x^n}$
+\end{itemize}
+ \textbf{LINEAR APPROXIMATION}\\
+$f(x) \approx f(a) + f'(a)(x-a)$ is called the linear approximation or tangent line approximation of f at a\\
+\pagebreak
+ \textbf{THE 1ST ORDER DIFFERENTIAL}\\
+"The 1st order differential dy  of y = f(x) at a is defined in term of dx by equation''
+\begin{mybox}
+\begin{center}
+df(a)= f'(a)dx
+\end{center}
+\end{mybox}
+ \textbf{THE 2ND ORDER DIFFERENTIAL}\\
+``The 2nd order differential of y = f(x) at a is defined in term of dx by equation''
+\begin{mybox}
+\begin{center}
+$d^2f(a)=f"(a)dx^2$
+\end{center}
+\end{mybox}
+ \textbf{THE NTH ORDER DIFFERENTIAL}\\
+``The nth order differential of y = f(x) at a is defined in term of dx by equation''
+\begin{mybox}
+\begin{center}
+$d^nf(a)=f^{(n)}(a)dx^n$
+\end{center}
+\end{mybox}
+\end{document}	
