@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  5 NOV 2017 22:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  6 NOV 2017 14:12
 entering extended mode
 **./Physic1.tex
 (Physic1.tex
@@ -1363,35 +1363,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 489--491
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 491.
+<hinh4.png, id=56, 154.5775pt x 341.77687pt>
+File: hinh4.png Graphic file (type png)
+ <use hinh4.png>
+Package pdftex.def Info: hinh4.png used on input line 501.
+(pdftex.def)             Requested size: 154.5771pt x 341.77603pt.
+ [12]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 506.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 512.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 518.
+ [13 <./hinh4.png>] <hinh5.png, id=65, 406.51875pt x 219.31938pt>
+File: hinh5.png Graphic file (type png)
+ <use hinh5.png>
+Package pdftex.def Info: hinh5.png used on input line 530.
+(pdftex.def)             Requested size: 406.51775pt x 219.31883pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--496
+<hinh6.png, id=66, 387.94937pt x 204.765pt>
+File: hinh6.png Graphic file (type png)
+ <use hinh6.png>
+Package pdftex.def Info: hinh6.png used on input line 531.
+(pdftex.def)             Requested size: 387.94843pt x 204.76448pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--535
 
  []
 
-[12] (Physic1.aux) ) 
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 535.
+[14 <./hinh5.png> <./hinh6.png>] (Physic1.aux) ) 
 Here is how much of TeX's memory you used:
- 14522 strings out of 493323
- 252289 string characters out of 3139069
+ 14537 strings out of 493323
+ 252481 string characters out of 3139069
  321387 words of memory out of 3000000
- 17876 multiletter control sequences out of 15000+200000
+ 17888 multiletter control sequences out of 15000+200000
  541635 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,5n,43p,10418b,437s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/rs
-fs/rsfs10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbx10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/vntex/vnr/vnr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/vntex/vnr/vnti10.pfb>
-Output written on Physic1.pdf (12 pages, 399787 bytes).
+ 39i,6n,43p,10418b,437s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/rsfs/rsfs10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/vntex/vnr/vnbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnb
+xti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnti10.pfb>
+Output written on Physic1.pdf (14 pages, 749288 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
