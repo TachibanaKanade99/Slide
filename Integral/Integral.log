@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  8 NOV 2017 08:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  10 NOV 2017 09:34
 entering extended mode
 **./Integral.tex
 (Integral.tex
@@ -1186,11 +1186,35 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 197.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 204.
+(mdframed)              on input line 206.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 211.
- [5] (Integral.aux) ) 
+(mdframed)              on input line 216.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 223.
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
+
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 236.
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--244
+
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 244.
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+
+ []
+
+[6] (Integral.aux) ) 
 Here is how much of TeX's memory you used:
  14429 strings out of 493323
  250914 string characters out of 3139069
@@ -1199,18 +1223,18 @@ Here is how much of TeX's memory you used:
  535580 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,8n,43p,10419b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/vntex/vnr/vnbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbxti
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr10.pfb>
-Output written on Integral.pdf (5 pages, 168535 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+vntex/vnr/vnbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbxti1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr10.pfb>
+Output written on Integral.pdf (6 pages, 174616 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
