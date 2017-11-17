@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  16 NOV 2017 21:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  17 NOV 2017 14:35
 entering extended mode
 **./Integral.tex
 (Integral.tex
@@ -1210,39 +1210,39 @@ Package mdframed Info: mdframed detected package amsthm
  changed the theorem header of amsthm
 (mdframed)              on input line 244.
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
  []
 
 [6]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 268.
+(mdframed)              on input line 276.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 274.
+(mdframed)              on input line 282.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 280.
+(mdframed)              on input line 288.
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--287
+Underfull \hbox (badness 10000) in paragraph at lines 293--295
 
  []
 
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 287.
+(mdframed)              on input line 295.
 <hinh1.png, id=33, 398.48875pt x 162.10562pt>
 File: hinh1.png Graphic file (type png)
  <use hinh1.png>
-Package pdftex.def Info: hinh1.png used on input line 292.
+Package pdftex.def Info: hinh1.png used on input line 300.
 (pdftex.def)             Requested size: 398.48778pt x 162.10522pt.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 296.
+(mdframed)              on input line 304.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 303.
+(mdframed)              on input line 311.
  [7 <./hinh1.png>] (Integral.aux) ) 
 Here is how much of TeX's memory you used:
  14434 strings out of 493323
@@ -1262,7 +1262,7 @@ am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
 .9/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vn
 tex/vnr/vnbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr10.p
 fb>
-Output written on Integral.pdf (7 pages, 244393 bytes).
+Output written on Integral.pdf (7 pages, 244659 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
