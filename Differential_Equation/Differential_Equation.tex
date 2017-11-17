@@ -1,0 +1,107 @@
+\documentclass[10pt]{article}
+\usepackage{pictex,amsmath,amssymb,amsbsy,amsfonts,amsthm,verbatim}
+\usepackage{graphics}
+\usepackage{fullpage}
+\usepackage{fancyhdr}
+\usepackage{algorithm,algorithmic}
+\usepackage{multirow}
+\usepackage{graphicx}
+\setlength{\voffset}{-0.25in}
+\setlength{\headsep}{+0.5in}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0em}
+
+\def\vu{\mathbf{u}}
+\def\vv{\mathbf{v}}
+\def\vs{\mathbf{s}}
+\def\vb{\mathbf{b}}
+\def\vw{\mathbf{w}}
+
+\renewcommand{\implies}{\rightarrow}
+\renewcommand{\lor}{\vee}
+\renewcommand{\land}{wedge}
+\renewcommand{\iff}{\leffrightarrow}
+\newcommand{\xor}{\oplus}
+\newcommand{\TRUE}{\mathbf{T}}
+\newcommand{\FALSE}{\mathbf{F}}
+\newcommand{\universe}{\mathcal{U}}
+
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{mdframed}
+\usepackage[utf8]{vietnam}
+
+\newmdenv[linecolor=blue,skipabove=\topsep, skipbelow=\topsep,leftmargin=5pt,rightmargin=-5pt,innerleftmargin=5pt,innerrightmargin=5pt]{mybox}
+
+\begin{document}
+\begin{center}
+\textbf{ORDINARY DIFFERENTIAL EQUATIONS}
+\end{center}
+\begin{enumerate}
+	%1
+	\item \textbf{Separable Equations}\\
+	- A \textbf{separable equation} is a first-order differential equation, which has a form:
+	\begin{mybox}
+	\begin{center}
+	$P(x)dx + Q(y)dy = 0$
+	\end{center}
+	\end{mybox}
+	\textbf{\underline{Solution:}}\\
+	Integrate both sides, we receive:
+	\begin{center}
+	$\displaystyle \int P(x)dx +\int Q(y)dy = C$
+	\end{center}
+	%2
+	\item \textbf{The differential Equation of the form}
+	\begin{mybox}
+	\begin{center}
+	$f_1(x).g_1(y)dx + f_2(x).g_2(y)dy = 0$
+	\end{center}
+	\end{mybox}
+	\textbf{\underline{Solution:}}\\
+	\begin{equation}
+	\mbox{If } f_1(x),f_2(x),g_1(y),g_2(y) \not = 0, \mbox{then we divide both sides by } f_2(x).g_1(y). \mbox{ So:}
+	\end{equation}
+	\begin{center}
+	$\dfrac{f_1(x)}{f_2(x)}dx + \dfrac{g_2(x)}{g_1(x)} = 0$
+	$\rightarrow{\displaystyle \int \dfrac{f_1(x)}{f_2(x)}dx + \int \dfrac{g_2(y)}{g_1(y)}dy}$
+	\end{center}
+	%3
+	\item \textbf{COOL PROBLEM}\\
+	(Liên quan đến the rate of change cần chú ý)\\
+	- The rate of  change of the temperature T(t) is the derivative of $\dfrac{dT}{dt}$\\
+	- Acording to the Newton's law of cooling:
+	\begin{mybox}
+	\begin{center}
+	$\dfrac{dT}{dt} = k(T-T_s)$
+	\end{center}
+	\end{mybox}
+	When k is a constant of propotionality.\\
+	Separating the variables we have:
+	\begin{center}
+	\begin{align}
+	\dfrac{dT}{T-T_s} = kdt \leftrightarrow \dfrac{dT}{T-T_s} = kdt \\
+	\rightarrow \displaystyle \int \dfrac{dT}{T-T_s} = k \int dt \rightarrow ln|T-T_s| = kt + lnC \\
+	\rightarrow T -T_s = e^{kt + lnC} = e^{kt}.e^{lnC} = Ce^{kt}
+	\end{align}
+	\end{center}
+	%4
+	\item \textbf{The first-order linear differential equation}\\
+	- The first-order \textbf{linear} differential equation is one that can be put into the form:
+	\begin{mybox}
+	\begin{center}
+	\begin{equation}
+	\dfrac{dy}{dx} + P(x).y = Q(x)
+	\end{equation}
+	\end{center}
+	\end{mybox}
+	- To solve the linear difernetial equation, multply both side by the \textbf{integrate factor} $e^{P(x)dx}$ and integrate both sides:
+	\begin{mybox}
+	\begin{center}
+	\begin{equation}
+	y = e^{- \int P(x)dx}.{\displaystyle \int Q(x).e^{\int P(x)dx}dx + C}
+	\end{equation}
+	\end{center}
+	\end{mybox}
+\end{enumerate}
+\end{document}	   
