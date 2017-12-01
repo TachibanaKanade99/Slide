@@ -104,4 +104,130 @@
 	\end{center}
 	\end{mybox}
 \end{enumerate}
+\pagebreak
+\begin{center}
+\textbf{SECOND ORDER LINEAR DIIFERENTIAL EQUATIONS WITH CONSTANT COEFFICIENTS}
+\end{center}
+\begin{enumerate}
+	%1
+	\item \textbf{Homogeneous and Non-Homogeneous Second Differential Equations}.\\
+	- Homogeneous Second Differential Equation has a form:
+	\begin{mybox}
+	\begin{center}
+	\begin{equation}
+	Ay" + By' + Cy = 0 (A,B,C \in \mathbb{R}; A \not = 0)
+	\end{equation}
+	\end{center}
+	\end{mybox}
+	- Non-homogeneous Second Differential Equation has a form:
+	\begin{mybox}
+	\begin{center}
+	\begin{equation}
+	Ay" + By' + Cy = f(x) (A,B,C \in \mathbb{R}; A \not = 0)
+	\end{equation}
+	\end{center}
+	\end{mybox}
+	%2
+	\item Let $\textbf{$y_1,y_2$}$ be any 2 solutions of the homogeneous linear differential equation (1), then:
+	\begin{center}
+	$\textbf{$C_1y_1 + C_2y_2$}$
+	\end{center}
+	is also a \textbf{solution} of equation (1) where $C_1, C_2$ are arbitrary constants.(hàm tùy ý)
+	\begin{itemize}
+	\item The 2 function $y_1,y_2$ are \textbf{linear dependent} on $a \le x \le b$ if \textit{there exists constants $C_1,C_2$ not zero}, such that:
+	\begin{center}
+	$C_1y_1 + C_2y_2 = 0$
+	\end{center}
+	\item The 2 function $y_1,y_2$ are \textbf{linear independent} on $a \le x \le b$ if:
+	\begin{center}
+	$C_1y_1 + C_2y_2 = 0$
+	\end{center}
+	For all x such that $a \le x \le b$ implies $C_1 = C_2 = 0$.
+	\end{itemize}
+	%3
+	\item Let $y_1,y_2$ be 2 real function each of which has the first derivative on the interval $a \le x \le b$. The determinant (định thức):
+	\begin{center}
+	\begin{align*}
+	W(x) = 
+	\begin{vmatrix}
+	y_1(x) & y_2(x)\\
+	y'_1(x) & y'_2(x)
+	\end{vmatrix}
+	= y_1(x) \times y'_2(x) - y'_1(x) \times y_2(x)
+	\end{align*}
+	\end{center}
+	%4
+	\item If $y_1,y_2$ are 2 linearly independent solutions of equation (7), then every \textbf{homogeneous solution} \textit{$y_h$} is:
+	\begin{center}
+	$y_h = C_1y_1 + C_2y_2$
+	\end{center}
+	We have equation (7) as:
+	\begin{center}
+	$Ay" + By' + Cy = 0$
+	\end{center}
+	Consider that:
+	\begin{align*}
+	y = e^{kx}\\
+	y' = ke^{kx}\\
+	y" = k^2e^{kx}
+	\end{align*}
+	We receive:
+	\begin{align}
+	Ak^2e^{kx} + Bke^{kx} + Ce^{kx} = 0\\
+	\leftrightarrow{Ak^2 + Bk + C = 0}
+	\end{align}
+	From equation(10), we have evaluate $\Delta$ of the equation:
+	\begin{itemize}
+		\item $\Delta > 0$, the equation has \textbf{real and different roots $k_1,k_2 \not = 0$}.Then:
+		\begin{center}
+		$y_1(x) = e^{k_1x}$\\
+		$y_2(x) = e^{k_2x}$
+		\end{center}
+		The homogeneous solution is:
+		\begin{mybox}
+		\begin{center}
+		 $y_h = C_1e^{k_1x} + C_2e^{k_2x}$
+		 \end{center}
+		 \end{mybox}
+		 \item $\Delta = 0$ then the characteristic equation has \textbf{double real root}: $k = k{0}$\\
+		 The the homogeneous solution is:
+		 \begin{mybox}
+		 \begin{center}
+		 $y_h = C_1e^{k_0x} + C_2xe^{k_0x}$
+		 \end{center}
+		 \end{mybox}
+		 \item $\Delta < 0$, then characteristic equation has \textbf{complex conjugate roots $k_1 = a + bi$ and $k_2 = a - bi$}\\
+		 Then the homogeneous solution is:
+		 \begin{mybox}
+		 \begin{center}
+		 $y_h = e^{ax} (C_1cos(bx) + C_2sin(bx))$
+		 \end{center}
+		 \end{mybox} 
+	\end{itemize}
+	%5
+	\item \textbf{Non-homogeneous Equation with constant coefficients}
+	\begin{itemize}
+		\item \textbf{Case I:$f(x) = e^{\alpha x}.P_n(x)$}\\
+		The particular solution of non-homogeneous equation has a form $y_p = x^s.e^{\alpha x}.Q_n(x)$
+		\begin{itemize}
+			\item If $\alpha$ is not the root of the characteristic equation then s =0 and the particular equation has a form $y_p = e^{\alpha x}.Q_n(x)$
+			\item If $\alpha$ is one the 2 different roots of the characteristic equation then s =1 and the particular solution has a form $y_p x.e^{\alpha x}.Q_n(x)$
+			\item If $\alpha$ is the double root of the characteristic equation then s = 2 and the particular equation has a form $y_p = x^2.e^{\alpha x}.Q_n(x)$
+		\end{itemize}
+		\item Case 2: f(x) = $e^{\alpha x}.[P_n(x).cos(\beta x).Q_m(x).sin(\beta x)]$\\
+		The particular solution of non-homogeneous equation has a form:
+		\begin{center}
+		$y_p = x^s.e^{\alpha x}.[H_k(x).cos(\beta x) + T_m(x).sin(\beta x)]$
+		\end{center}
+		\begin{itemize}
+			\item If $\alpha + i \beta$ \textbf{is not the root} of the characteristic equation then \textbf{s = 0} and the particular solution has a form $y_p = e^{\alpha x}.[H_k(x).cos(\beta x) + T_k(x).sin(\beta x)]$
+			\item If $\alpha + i \beta$ \textbf{is one of the complex conjugate roots} of the characteristic equation then \textbf{s = 1} and the particular solution has a form $y_p = x.e^{\alpha x}.[H_k(x).cos(\beta x) + T_k(x).sin(\beta x)]$
+		\end{itemize}
+	\end{itemize}	
+		%6
+		\item \textbf{Find the non-homogeneous equation:}\\
+		- Step 1:Solve the homogeneous equation, use characteristic equation to find $k_{1},k_{2}$.\\
+		- Step 2:Evaluate the homogeneous equation.\\
+		- Step 3:Find a particular solution of non-homogeneous equation. 
+\end{enumerate}		   
 \end{document}	   
