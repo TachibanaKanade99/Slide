@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  4 DEC 2017 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  4 DEC 2017 14:00
 entering extended mode
 **./Physic1.tex
 (Physic1.tex
@@ -1396,7 +1396,7 @@ File: hinh7.png Graphic file (type png)
 
 <use hinh7.png>
 Package pdftex.def Info: hinh7.png used on input line 551.
-(pdftex.def)             Requested size: 230.86192pt x 274.02307pt.
+(pdftex.def)             Requested size: 161.60263pt x 191.8153pt.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 554.
@@ -1411,11 +1411,8 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 567.
-Package mdframed Info: Not enough space on this page on input line 570.
 
-[14 <./hinh7.png> <./hinh8.png>]
-Package mdframed Info: Not enough space on this page on input line 570.
- <hinh9.png, id=76, 536.50438pt x 193.22188pt>
+[14 <./hinh7.png> <./hinh8.png>] <hinh9.png, id=76, 536.50438pt x 193.22188pt>
 File: hinh9.png Graphic file (type png)
 
 <use hinh9.png>
@@ -1461,7 +1458,7 @@ sfs/rsfs10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbx10.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/vntex/vnr/vnr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/vntex/vnr/vnti10.pfb>
-Output written on Physic1.pdf (16 pages, 902726 bytes).
+Output written on Physic1.pdf (16 pages, 902819 bytes).
 PDF statistics:
  125 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
