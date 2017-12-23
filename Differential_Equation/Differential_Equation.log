@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  23 DEC 2017 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  23 DEC 2017 16:06
 entering extended mode
-**./Differential_Equation.tex
-(Differential_Equation.tex
+**./Differential_equation.tex
+(Differential_equation.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -1038,8 +1038,8 @@ File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
 ("C:\Program Files\MiKTeX 2.9\tex\latex\vntex\vncaps.tex"
 File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
 ))
-(Differential_Equation.aux)
-\openout1 = `Differential_Equation.aux'.
+(Differential_equation.aux)
+\openout1 = `Differential_equation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
@@ -1144,7 +1144,7 @@ Package mdframed Info: mdframed detected package amsthm
  changed the theorem header of amsthm
 (mdframed)              on input line 202.
  [4]
-(Differential_Equation.aux) ) 
+(Differential_equation.aux) ) 
 Here is how much of TeX's memory you used:
  14430 strings out of 493323
  251040 string characters out of 3139069
@@ -1165,7 +1165,7 @@ pe1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vn
 r/vnbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnti10.pfb>
-Output written on Differential_Equation.pdf (4 pages, 134328 bytes).
+Output written on Differential_equation.pdf (4 pages, 134320 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
